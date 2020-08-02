@@ -3,15 +3,29 @@ body{
   margin: 0px;
   padding: 0px;
 }
+
+.container{
+  border: 1px solid white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
 .section1,.section2,.section3{
 	float: left;
-  padding: 9px;
   border: 1px solid black;
   box-sizing: border-box;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  overflow: auto;
 }
 
 .section1{
 	background-color: grey;
+  color: white;
 
 }
 
@@ -29,11 +43,14 @@ body{
 	position: relative;
 	left: 80%;
 	border: 1px solid black;
-  width: 60px;
+  width: 19%;
+  text-align: center;
+  height: 10%;
 }
 
 .Chicken{
     background-color: pink;
+    color: black;
 }
 
 .Beef{
@@ -44,6 +61,7 @@ body{
 
 .Sushi{
   background-color: blue;
+  color: white;
 }
  
  .row {
